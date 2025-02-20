@@ -211,7 +211,7 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 1em;
   color: #2c2c2c; /* Darker gray for heading */
@@ -279,7 +279,7 @@ input[type="checkbox"] {
 
 /* ===== LAYOUT STYLES ====== */
 #content {
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   background-color: white;
   padding: 2em;
@@ -287,4 +287,37 @@ input[type="checkbox"] {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* nice drop shadow */
 }
 
+
 /* ===== STATE STYLES ======= */
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+html {
+  font-size: 1em;
+}
+
+body {
+  padding: 1.2em;
+}
+
+#content {
+  padding: 1.5em;
+  width: 100%;
+}
+
+input[type="email"], input[type="checkbox"], input[type="submit"] {
+  padding: 1em;
+}
+
+form {
+    padding: 2rem 1.5rem;
+  }
+
+h1 {
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1.4em;
+ }
+}
