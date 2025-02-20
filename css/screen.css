@@ -255,6 +255,12 @@ input[type="email"]:focus, input[type="checkbox"]:focus, input[type="submit"]:fo
   border: 2px solid #b0b0b0; /* slightly darker gray border */
 }
 
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.5em;
+}
+
+
 
 /* ===== LAYOUT STYLES ====== */
 
