@@ -260,7 +260,22 @@ input[type="checkbox"] {
   margin-right: 0.5em;
 }
 
+input[type="submit"] {
+  background-color: #b3b3b3; /* medium gray */
+  color: #ffffff; /* white text */
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+input[type="submit"]:hover {
+  background-color: #808080; /* darker gray hover */
+}
+
+input[type="checkbox"] {
+  font-size: 1em;
+  color: #666666; /* medium gray text */
+}
 
 /* ===== LAYOUT STYLES ====== */
 
