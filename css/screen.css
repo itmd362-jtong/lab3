@@ -278,6 +278,13 @@ input[type="checkbox"] {
 }
 
 /* ===== LAYOUT STYLES ====== */
-
+#content {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* nice drop shadow */
+}
 
 /* ===== STATE STYLES ======= */
