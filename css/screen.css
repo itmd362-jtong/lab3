@@ -203,8 +203,44 @@ label {
   display: block;
 }
 
+body {
+  font-family: Merriweather, Georgia, serif;
+  background-color: #f4f4f4; /* light gray background */
+  color: #333333; /* dark gray text */
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  color: #2c2c2c; /* Darker gray for heading */
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  color: #555555; /* lighter gray */
+}
+
+form ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+form li {
+  margin-bottom: 1.5em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  color: #4d4d4d; /* lighter gray */
+}
+
+
 /* ===== LAYOUT STYLES ====== */
 
 
 /* ===== STATE STYLES ======= */
-
