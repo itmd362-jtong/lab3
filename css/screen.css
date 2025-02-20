@@ -239,6 +239,22 @@ label {
   color: #4d4d4d; /* lighter gray */
 }
 
+input[type="email"], input[type="checkbox"], input[type="submit"] {
+  width: 100%;
+  padding: 0.8em 1.2em;
+  margin: 0.5em 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #e0e0e0; /* light gray background for the input box */
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+input[type="email"]:focus, input[type="checkbox"]:focus, input[type="submit"]:focus {
+  outline: none;
+  border: 2px solid #b0b0b0; /* slightly darker gray border */
+}
+
 
 /* ===== LAYOUT STYLES ====== */
 
