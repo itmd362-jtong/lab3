@@ -292,32 +292,39 @@ input[type="checkbox"] {
 
 /* Mobile */
 @media screen and (max-width: 480px) {
+
 html {
   font-size: 1em;
 }
 
 body {
-  padding: 1.2em;
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
 
 #content {
   padding: 1.5em;
   width: 100%;
+  max-width: 100%;
+  margin: 0;
+  position: relative;
+  }
+
+form {
+  padding: 1.5rem;
 }
 
 input[type="email"], input[type="checkbox"], input[type="submit"] {
   padding: 1em;
+  width: 100%;
 }
 
-form {
-    padding: 2rem 1.5rem;
-  }
-
 h1 {
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 p {
-  font-size: 1.4em;
+  font-size: 1.2em;
  }
 }
