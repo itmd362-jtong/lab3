@@ -208,8 +208,9 @@ label {
 }
 
 body {
-  background-color: #f4f4f4; /* light gray background */
-  color: #333333; /* dark gray text */
+  background-image: url("../images/monochrome_low_poly_design_0209.jpg");
+  background-position: center;
+  background-size: cover;
   padding: 20px;
 }
 
