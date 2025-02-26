@@ -208,7 +208,6 @@ label {
 }
 
 body {
-  font-family: Merriweather, Georgia, serif;
   background-color: #f4f4f4; /* light gray background */
   color: #333333; /* dark gray text */
   padding: 20px;
@@ -251,10 +250,6 @@ input[type="email"], input[type="checkbox"], input[type="submit"] {
   box-sizing: border-box;
 }
 
-input[type="email"]:focus, input[type="checkbox"]:focus, input[type="submit"]:focus {
-  outline: none;
-}
-
 input[type="email"] {
   padding: 1em;
   font-size: 1em;
@@ -264,21 +259,13 @@ input[type="email"] {
   transition: background 0.3s ease;
 }
 
-input[type="email"]:focus {
-  background-color: #e0e0e0;
-}
-
 input[type="checkbox"] {
   appearance: none;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 4px;
-  background-color: #ddd;
+  background-color: #f0f0f0;
   position: relative;
-}
-
-input[type="checkbox"]:checked {
-  background-color: #888;
 }
 
 input[type="submit"] {
@@ -289,22 +276,40 @@ input[type="submit"] {
   font-size: 20px;
 }
 
-input[type="submit"]:hover {
-  background-color: #808080; /* darker gray hover */
-  transition: background 0.3s ease;
-}
-
 /* ===== LAYOUT STYLES ====== */
 #content {
   max-width: 600px;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #e0e0e0;
   padding: 2em;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* nice drop shadow */
 }
 
+#input-age-verification { 
+  display: flex;  /* makes it so the checkbox is to the left of the text */
+  align-items: center;
+  gap: 1em;
+}
 /* ===== STATE STYLES ======= */
+
+input[type="email"]:focus {
+  background-color: #b3b3b3;
+  outline: none;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #888;
+}
+
+input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #808080; /* darker gray hover */
+  transition: background 0.3s ease;
+}
 
 /* Media queries */
 @media screen and (min-width: 480px) {
@@ -320,7 +325,6 @@ body {
 
 #content {
   padding: 2em;
-  width: 100%;
   max-width: 100%;
   margin: 0;
   position: relative;
@@ -372,11 +376,11 @@ input[type="email"], input[type="checkbox"], input[type="submit"] {
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.5em;
  }
  
 label {
