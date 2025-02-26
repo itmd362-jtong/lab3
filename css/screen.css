@@ -190,7 +190,7 @@ img, audio, video {
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
 */
-
+/* using major sixth modular scale */
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
@@ -202,30 +202,29 @@ html {
 label {
   display: block;
   text-shadow: 2px 2px 6px #999999; /* darkish gray shadows */
-  font-size: 1.2em;
-  margin-bottom: 0.5em;
+  font-size: 1.375em; /* 22px */ 
+  margin-bottom: 0.495em; /* 7.917px */
   color: #4d4d4d; /* lighter gray */
 }
 
 body {
   background-image: url("../images/monochrome_low_poly_design_0209.jpg");
   background-position: center;
-  background-size: cover;
   padding: 20px;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2.292em; /* 36.674px */
   font-weight: bold;
-  margin-bottom: 1em;
+  margin-bottom: 1.375em; /* 22px */
   color: #2c2c2c; /* Darker gray for heading */
   text-shadow: 2px 2px 6px #999999;
   text-align: center;
 }
 
 p {
-  font-size: 1.2em;
-  margin-bottom: 1.5em;
+  font-size: 1.375em; /* 22px */
+  margin-bottom: 1.375em; /* 22px */
   color: #555555; /* lighter gray */
   text-shadow: 2px 2px 6px #999999;
   text-align: center;
@@ -237,23 +236,23 @@ form ol {
 }
 
 form li {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.375em; /* 22px */
 }
 
 input[type="email"], input[type="checkbox"], input[type="submit"] {
   width: 100%;
-  padding: 0.8em 1.2em;
-  margin: 0.5em 0;
+  padding: 0.825em 1.375em; /* 13.197px & 22px */
+  margin: 0.495em 0.064em; /* 7.919px & 1.025px */
   border: none;
   border-radius: 4px;
   background-color: #e0e0e0; /* light gray background for the input box */
-  font-size: 1em;
+  font-size: 1.375em; /* 22px */
   box-sizing: border-box;
 }
 
 input[type="email"] {
-  padding: 1em;
-  font-size: 1em;
+  padding: 0.825em;
+  font-size: 1.375em; /* 22px */
   background-color: #f0f0f0;
   border-radius: 6px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* nice drop shadow */
@@ -275,7 +274,7 @@ input[type="submit"] {
   color: #555555; /* dark gray text */
   cursor: pointer;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px; /* 1.375em */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -317,7 +316,7 @@ input[type="submit"]:hover {
 /* Media queries */
 @media screen and (min-width: 480px) {
 html {
-  font-size: 1.15em;
+  font-size: 0.825em;
 }
 
 body {
@@ -327,7 +326,7 @@ body {
 }
 
 #content {
-  padding: 2em;
+  padding: 1.375em;
   max-width: 100%;
   margin: 0 auto;
   position: relative;
@@ -335,28 +334,28 @@ body {
 }
 
 form {
-  padding: 2em;
+  padding: 2.292em;
 }
 
 input[type="email"], input[type="checkbox"], input[type="submit"] {
-  padding: 1.1em;
+  padding: 1.375em;
 }
 
 #age-verification {
-  font-size: 1.05em;
+  font-size: 1em;
 }
 
 #input-age-verification label {
-  font-size: 1.15em;
+  font-size: 1.375em;
 }
 
 input[type="submit"] {
   padding: 1.5em 2em;
-  font-size: 1.2em;
+  font-size: 1.375em;
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 p {
@@ -366,7 +365,7 @@ p {
 
 @media screen and (min-width: 768px) {
 html {
-  font-size: 1.25em;
+  font-size: 1.375em;
 }
 
 body {
@@ -376,7 +375,7 @@ body {
 }
 
 #content {
-  padding: 1.5em;
+  padding: 0.825em;
   max-width: 80%;
   margin: 0 auto;
   position: relative;
@@ -384,34 +383,34 @@ body {
 }
 
 form {
-  padding: 1.5em;
+  padding: 0.825em;
 }
 
 input[type="email"], input[type="checkbox"], input[type="submit"] {
-  padding: 1em;
+  padding: 0.495em;
 }
 
 #age-verification {
-  font-size: 0.8em;
+  font-size: 1.5em;
 }
 
 #input-age-verification label {
-  font-size: 1.2em;
+  font-size: 1.375em;
 }
 
 #input-email label {
-  font-size: 1.2em;
+  font-size: 1.375em;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.292em;
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.375em;
  }
  
 label {
-  font-size: 1.1em;
+  font-size: 1.375em;
  }
 }
