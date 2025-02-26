@@ -270,7 +270,7 @@ input[type="checkbox"] {
 
 input[type="submit"] {
   background-color: #b3b3b3; /* medium gray */
-  color: #ffffff; /* white text */
+  color: #555555; /* dark gray text */
   cursor: pointer;
   font-weight: bold;
   font-size: 20px;
@@ -294,7 +294,7 @@ input[type="submit"] {
 /* ===== STATE STYLES ======= */
 
 input[type="email"]:focus {
-  background-color: #b3b3b3;
+  background-color: #b3b3b3; /* goes dark gray when clicked */
   outline: none;
 }
 
@@ -314,7 +314,7 @@ input[type="submit"]:hover {
 /* Media queries */
 @media screen and (min-width: 480px) {
 html {
-  font-size: 1em;
+  font-size: 1.15em;
 }
 
 body {
@@ -326,7 +326,7 @@ body {
 #content {
   padding: 2em;
   max-width: 100%;
-  margin: 0;
+  margin: 0 auto;
   position: relative;
   box-sizing: border-box;
 }
@@ -336,11 +336,24 @@ form {
 }
 
 input[type="email"], input[type="checkbox"], input[type="submit"] {
-  padding: 1em;
+  padding: 1.1em;
+}
+
+#age-verification {
+  font-size: 1.05em;
+}
+
+#input-age-verification label {
+  font-size: 1.15em;
+}
+
+input[type="submit"] {
+  padding: 1.5em 2em;
+  font-size: 1.2em;
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 p {
@@ -361,8 +374,8 @@ body {
 
 #content {
   padding: 1.5em;
-  max-width: 100%;
-  margin: 0;
+  max-width: 80%;
+  margin: 0 auto;
   position: relative;
   box-sizing: border-box;
 }
@@ -373,6 +386,18 @@ form {
 
 input[type="email"], input[type="checkbox"], input[type="submit"] {
   padding: 1em;
+}
+
+#age-verification {
+  font-size: 0.8em;
+}
+
+#input-age-verification label {
+  font-size: 1.2em;
+}
+
+#input-email label {
+  font-size: 1.2em;
 }
 
 h1 {
