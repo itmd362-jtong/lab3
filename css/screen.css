@@ -315,7 +315,7 @@ input[type="submit"]:hover {
 }
 
 /* Media queries */
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 320px) {
 html {
   font-size: 0.825em; /* 13.197px */
 }
