@@ -190,7 +190,8 @@ img, audio, video {
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
 */
-/* using major sixth modular scale */
+
+/* trying to use major sixth modular scale, won't comment on every em to px conversion */
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
@@ -209,7 +210,7 @@ label {
 
 body {
   background-image: url("../images/monochrome_low_poly_design_0209.jpg");
-  background-position: center;
+  background-position: center; /* centering the image looks way better than the full image */
   padding: 20px;
 }
 
@@ -288,7 +289,7 @@ input[type="submit"] {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
 }
 
-#input-age-verification { 
+#input-age-verification { /* i found this checkbox fix from Henry Tran, thank you!*/
   display: flex;  /* makes it so the checkbox is to the left of the text */
   align-items: center;
   gap: 1em;
@@ -316,7 +317,7 @@ input[type="submit"]:hover {
 /* Media queries */
 @media screen and (min-width: 428px) {
 html {
-  font-size: 0.825em;
+  font-size: 0.825em; /* 13.197px */
 }
 
 body {
